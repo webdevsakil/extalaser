@@ -1,0 +1,12 @@
+/* Font Weight */
+
+@for $i from 3 to 8 {
+    .fw-#{$i*100} {
+        font-weight: $i*100;
+    }
+}
+
+/* Font Family */
+
+$mullis: 'Mulish', sans-serif;
+$inter: 'Inter', sans-serif;

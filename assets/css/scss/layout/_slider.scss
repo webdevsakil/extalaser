@@ -1,0 +1,27 @@
+/* Slider */
+.slider-height {
+    height: 826px;
+}
+
+.slider-bg {
+    background-size: cover;
+}
+
+.slider-title h2 {
+    font-weight: 700;
+    font-size: 48px;
+    color: $gray;
+    letter-spacing: -2px;
+}
+
+.review-text {
+    color: $light-gray;
+}
+
+.review-count-wrapper span {
+    color: $warning;
+}
+
+.count-text p {
+    color: $light-white;
+}

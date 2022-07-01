@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extalaser</title>
+    <!-- Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/vendors/aos.min.css">
+    <link rel="stylesheet" href="assets/css/vendors/tinyslider.css">
+    <link rel="stylesheet" href="assets/css/vendors/filter.css">
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/scss/style.css">
+</head>
+
+<body>
+
+    <!-- header Start -->
+    <header class="transparent-header shadow ">
+        <div class="container d-none d-lg-block ">
+            <div class="row align-items-center g-0">
+                <div class="col-lg-3">
+                    <!-- logo -->
+                    <div>
+                        <a href="#" class="logo">
+                            <img src="assets/image/hero/logo.png" alt="logo" class="logo-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-9 ">
+                    <div class="d-flex justify-content-end align-items-center ">
+                        <!-- navigation start -->
+                        <nav class="navigation ">
+                            <ul class="main-menu ">
+                                <li><a href="index.html">Home</a></li>
+                                <li class="has-children"><a href="#">Services</a>
+                                    <ul class="submenu">
+                                        <li><a href="web.html">web development</a></li>
+                                        <li><a href="service.html">Services</a></li>
+                                        <li><a href="single.html">Single</a></li>
+                                        <li class="has-nested-submenu"><a href="work.html">Our Work</a>
+                                            <ul class="nested-submenu">
+                                                <li><a href="web.html">web development</a></li>
+                                                <li><a href="service.html">Services</a></li>
+                                                <li><a href="work.html">Our Work</a> </li>
+                                                <li><a href="about.html">About</a></li>
+                                                <li><a href="blog.html">Blog</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="work.html">Our Work</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">contact</a></li>
+                            </ul>
+                        </nav>
+                        <!-- navigation End -->
+                        <!-- Button -->
+                        <div>
+                            <a href="#" class="theme-btn theme-btn-primary">Let's Talk</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Button -->
+            </div>
+
+        </div>
+        </div>
+        <!-- Mobile Menu-->
+        <div class="d-lg-none">
+            <div class="mobile-menu-wrapper">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 py-3">
+                            <div class="d-flex justify-content-between">
+
+                                <!-- logo -->
+                                <div>
+                                    <a href="#" class="logo">
+                                        <img src="assets/image/hero/logo.png" alt="logo" class="logo-img">
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <button type="button" class="mobileMenuBtn">
+                                        <svg width="44" height="44" viewBox="0 0 44 44" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M1.37496 13.7499H42.6249C43.3839 13.7499 43.9999 13.1339 43.9999 12.375C43.9999 11.6159 43.3838 11 42.6249 11H1.37496C0.615934 11 0 11.616 0 12.375C0 13.1339 0.616048 13.7499 1.37496 13.7499Z"
+                                                fill="currentColor" />
+                                            <path
+                                                d="M42.6249 20.625H1.37496C0.615934 20.625 0 21.241 0 22C0 22.7589 0.616048 23.3749 1.37496 23.3749H42.6249C43.3839 23.3749 43.9999 22.7589 43.9999 22C43.9999 21.241 43.3839 20.625 42.6249 20.625Z"
+                                                fill="currentColor" />
+                                            <path
+                                                d="M42.6249 30.25H15.125C14.3659 30.25 13.75 30.866 13.75 31.625C13.75 32.384 14.366 32.9999 15.125 32.9999H42.6249C43.384 32.9999 43.9999 32.3839 43.9999 31.625C44 30.8659 43.384 30.25 42.6249 30.25Z"
+                                                fill="currentColor" />
+                                        </svg>
+
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end mobile Menu -->
+
+        <div class="slider-navigation" >
+            <div class="row align-items-center theme-border-bottom  py-4 px-4 ">
+                <div class="col-6 text-start">
+                    <a href="#" class="logo">
+                        <img src="assets/image/hero/logo.png" alt="logo" class="logo-img">
+                    </a>
+                </div>
+                <div class="col-6 text-end">
+                    <button type="button" class="closeIcon btn-transparent"><span>x</span></button>
+                </div>
+            </div>
+            <!-- menu items start -->
+            <nav class="navigation">
+                <ul class="main-menu d-block ">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="has-children"><a href="#">Services</a>
+                        <ul class="mobile-submenu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog</a>
+                            <li><a href="#">services</a>
+                            </li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="work.html">Our Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+            <!-- menu items end -->
+        </div>
+
+    </header>
+    <!-- header End -->
+    <main>
+        <!-- slider start -->
+        <section style="background: url('./assets/image/Hero/hero-bg.png');"
+            class="slider-bg slider-height overflow-hidden ">
+            <!-- header -->
+            <div class="container">
+                <div class="row align-items-center slider-height  ">
+                    <div class="col-12 col-md-6 col-lg-5 ">
+                        <div class="mt-5">
+                            <div>
+                                <div class="slider-title mb-15" data-aos="fade-right" data-aos-duration="300">
+                                    <h2>We help you find <br> the best solution</h2>
+                                </div>
+                                <div class="review-text mb-20" data-aos="fade-right" data-aos-duration="350">
+                                    <p>Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit
+                                        quaerendum. At nam minimum
+                                        ponderum.
+                                        Est audiam animal molestiae te. Ex duo eripuit mentitum.</p>
+                                </div>
+                            </div>
+                            <div class="d-sm-flex gap-4" data-aos="fade-right" data-aos-duration="300">
+
+                                <ul class="list-unstyled d-flex">
+                                    <li><a href="#"><img src="assets/image/testimonial/author-1.png" alt="author"></a>
+                                    </li>
+                                    <li><a href="#"><img src="assets/image/testimonial/author-2.png" alt="author"></a>
+                                    </li>
+                                    <li><a href="#"><img src="assets/image/testimonial/author-3.png" alt="author"></a>
+                                    </li>
+                                    <li><a href="#"><img src="assets/image/testimonial/author-4.png" alt="author"></a>
+                                    </li>
+                                    <li><a href="#"><img src="assets/image/testimonial/author-5.png" alt="author"></a>
+                                    </li>
+                                </ul>
+
+                                <div class="review-count-wrapper">
+                                    <div data-aos="fade-right" data-aos-duration="400">
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <strong>5.0</strong>
+                                    </div>
+                                    <div class="count-text">
+                                        <p>from 100+ reviews</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="mt-20 mt-sm-45" data-aos="fade-up-right" data-aos-duration="400">
+                                <a href="#" class="theme-btn theme-btn-primary">Start Your Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 offset-lg-2 col-lg-4 d-none d-md-block">
+                        <div class=" d-flex flex-column justify-content-end slider-height" data-aos="fade-left" data-aos-duration="300">
+                            <img src="assets/image/Hero/hero-img.png" alt="hero" class="img-fluid">
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+        <!-- end slider -->
+        <!-- start brands -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 pt-30 pb-30 mt-4">
+                    <!-- brands slider -->
+                    <ul class="brands-slider list-unstyled  d-flex justify-content-around">
+                        <li><a href="#"><img src="assets/image/brands/logo-1.png" alt="logo" class="img-fluid"></a></li>
+                        <li><a href="#"><img src="assets/image/brands/logo-2.png" alt="logo" class="img-fluid"></a></li>
+                        <li><a href="#"><img src="assets/image/brands/logo-3.png" alt="logo" class="img-fluid"></a></li>
+                        <li><a href="#"><img src="assets/image/brands/logo-4.png" alt="logo" class="img-fluid"></a></li>
+                        <li><a href="#"><img src="assets/image/brands/logo-1.png" alt="logo" class="img-fluid"></a></li>
+                        <li><a href="#"><img src="assets/image/brands/logo-2.png" alt="logo" class="img-fluid"></a></li>
+                        <li><a href="#"><img src="assets/image/brands/logo-3.png" alt="logo" class="img-fluid"></a></li>
+                        <li><a href="#"><img src="assets/image/brands/logo-4.png" alt="logo" class="img-fluid"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end brands -->
+        <!-- service start -->
+        <section>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <h3 class="small-title mb-40" data-aos="fade-down" data-aos-duration="200">We specialize in</h3>
+                        <!-- tabs -->
+                        <div class="services-wrapper">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <!-- tab list -->
+                                    <ul class="nav flex-column nav-tabs list-items" role="tablist">
+                                        <li>
+                                            <button class="active" data-bs-toggle="tab"
+                                                data-bs-target="#creativeWebDesign" type="button">Creative web
+                                                Design</button>
+                                        </li>
+                                        <li>
+                                            <button data-bs-toggle="tab" data-bs-target="#logoDesign" type="button">Logo
+                                                Design</button>
+                                        </li>
+                                        <li>
+                                            <button data-bs-toggle="tab" data-bs-target="#appDevelopment"
+                                                type="button">App Development</button>
+                                        </li>
+                                        <li>
+                                            <button data-bs-toggle="tab" data-bs-target="#videoEditing"
+                                                type="button">Video Editing</button>
+                                        </li>
+                                        <li>
+                                            <button data-bs-toggle="tab" data-bs-target="#uiUx"
+                                                type="button">UI/UX</button>
+                                        </li>
+                                        <li>
+                                            <button data-bs-toggle="tab" data-bs-target="#illustration"
+                                                type="button">illustration</button>
+                                        </li>
+                                        <li>
+                                            <button data-bs-toggle="tab" data-bs-target="#more"
+                                                type="button">more</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-8">
+                                    <!-- tab content -->
+                                    <div class="tab-content pt-20">
+                                        <div class="tab-pane fade show active" id="creativeWebDesign">
+                                            <div class="service-content">
+                                                <div class="img-area d-flex justify-content-between">
+                                                    <div>
+                                                        <img src="assets/image/services/service1.png" alt="image" class="img-fluid">
+                                                    </div>
+                                                    <div>
+                                                        <img src="assets/image/services/service-2.png" alt="image" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                                <div class="mt-30 pe-lg-5">
+                                                    <p>Taciti duis fames primis ultrices est nulla, himenaeos augue gravida taciti aliquam amet aliquam, turpis sodales fusce
+                                                    hac condimentum facilisis vel etiam placerat consequat.</p>
+                                                </div>
+                                                <div class="mt-25">
+                                                    <a href="#" class="theme-btn theme-btn-border">Learn More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="logoDesign">
+                                            <div class="service-content">
+                                                <div class="img-area d-flex justify-content-between">
+                                                    <div>
+                                                        <img src="assets/image/services/service1.png" alt="image" class="img-fluid">
+                                                    </div>
+                                                    <div>
+                                                        <img src="assets/image/services/service-2.png" alt="image" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                                <div class="mt-30 pe-lg-5">
+                                                    <p>Taciti duis fames primis ultrices est nulla, himenaeos augue gravida taciti aliquam amet aliquam, turpis
+                                                        sodales fusce
+                                                        hac condimentum facilisis vel etiam placerat consequat.</p>
+                                                </div>
+                                                <div class="mt-25">
+                                                    <a href="#" class="theme-btn theme-btn-border">Logo Design</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="appDevelopment">App Development</div>
+                                        <div class="tab-pane fade" id="videoEditing">Vido Editing</div>
+                                        <div class="tab-pane fade" id="uiUx">UI / UX</div>
+                                        <div class="tab-pane fade" id="illustration">illustration</div>
+                                        <div class="tab-pane fade" id="more">more</div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- service end -->
+        <!-- service two start-->
+        <section class="pt-50 pb-50 mt-30 section-space">
+            <div class="service-two-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div style="
+                            background: url('assets/image/services/bg.png');
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            margin-left: -100px;
+                            ">
+                                <div class="d-flex justify-content-end" data-aos="fade-right" data-aos-duration="300">
+                                    <img src="assets/image/services/happy-man.png" alt="man" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- text area -->
+                            <div class="services-right">
+                                <div class="mb-40 mt-20" data-aos="fade-left" data-aos-duration="250">
+                                    <h3>Take your business to the <span>next level</span></h3>
+                                </div>
+                                <ul class="list-unstyled mt-20 ">
+                                    <li>
+                                        <div class="icon-box d-sm-flex">
+                                            <div class="pe-20">
+                                                <div class="icon" data-aos="fade-left" data-aos-duration="400">
+                                                    <img src="assets/image/services/icon-1.svg" alt="image">
+                                                </div>
+                                            </div>
+                                            <div class="icon-text">
+                                                <h4 data-aos="fade-right" data-aos-duration="300">Improve customer experience</h4>
+                                                <p data-aos="fade-right" data-aos-duration="350">Our motto is to fullfill customer demand by making them satisfied
+                                                    with growing ththeir bbusiness.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon-box d-sm-flex">
+                                            <div class="pe-20">
+                                                <div class="icon " data-aos="fade-right" data-aos-duration="400">
+                                                    <img src="assets/image/services/icon-2.svg" alt="image">
+                                                </div>
+                                            </div>
+                                            <div class="icon-text">
+                                                <h4 data-aos="fade-right" data-aos-duration="300">Optimize operation</h4>
+                                                <p data-aos="fade-right" data-aos-duration="350">Our motto is to fullfill customer demand by making them satisfied
+                                                    with growing ththeir bbusiness.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon-box d-sm-flex">
+                                            <div class="pe-20">
+                                                <div class="icon" data-aos="fade-right" data-aos-duration="400">
+                                                    <img src="assets/image/services/icon-3.svg" alt="image">
+                                                </div>
+                                            </div>
+                                            <div class="icon-text">
+                                                <h4 data-aos="fade-right" data-aos-duration="300">More revenue streams</h4>
+                                                <p data-aos="fade-right" data-aos-duration="350">Our motto is to fullfill customer demand by making them satisfied
+                                                    with growing ththeir bbusiness.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="mt-80 btn-area" data-aos="fade-up" data-aos-duration="400">
+                                    <a href="#" class="theme-btn theme-btn-primary">free consultation</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- service two end -->
+        <!-- portfolio start -->
+        <section class="portfoilo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <span class="section-top text-center text-lg-start d-block mb-3 mb-lg-0">latest project</span>
+                        <div class="portfolio-wrapper row">
+                            <div class="col-md-3">
+                                <div class="section-title">
+                                    <h3 class="text-center" data-aos="fade-right" data-aos-duration="300">Our Portfolio</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <nav class="filter-nav mt-4 " data-aos="fade-left" data-aos-duration="300">
+                                    <ul
+                                        class="filter-menu list-unstyled d-flex flex-wrap justify-content-center justify-content-lg-end">
+                                        <li data-target="all">All</li>
+                                        <li data-target="web">web design</li>
+                                        <li data-target="photography">photography</li>
+                                        <li data-target="graphic">graphic</li>
+                                        <li data-target="packaging">packaging</li>
+                                        <li data-target="logo">logo</li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- portfolio content -->
+                <div class="mt-4">
+                    <ul class="filter-item list-unstyled row row-cols-1 row-cols-md-2 row-cols-lg-3  gy-3 ">
+                        <li data-item="web" data-aos="flip-left" data-aos-duration="400">
+                            <a href="#">
+                                <img src="assets/image/portfolio/portfolio-1.png" class="img-fluid" alt="portofolio">
+                            </a>
+                        </li>
+                        <li data-item="web" data-aos="flip-left" data-aos-duration="400">
+                            <a href="#">
+                                <img src="assets/image/portfolio/portfolio-2.png" class="img-fluid" alt="portofolio">
+                            </a>
+                        </li>
+                        <li data-item="photography" data-aos="flip-left" data-aos-duration="400">
+                            <a href="#">
+                                <img src="assets/image/portfolio/portfolio-3.png" class="img-fluid" alt="portofolio">
+                            </a>
+                        </li>
+                        <li data-item="photography" data-aos="flip-left" data-aos-duration="400">
+                            <a href="#">
+                                <img src="assets/image/portfolio/portfolio-4.png" class="img-fluid" alt="portofolio">
+                            </a>
+                        </li>
+                        <li data-item="logo" data-aos="flip-left" data-aos-duration="400">
+                            <a href="#">
+                                <img src="assets/image/portfolio/portfolio-5.png" class="img-fluid" alt="portofolio">
+                            </a>
+                        </li>
+                        <li data-item="graphic" data-aos="flip-left" data-aos-duration="400">
+                            <a href="#">
+                                <img src="assets/image/portfolio/portfolio-6.png" class="img-fluid" alt="portofolio">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- portfolio end -->
+        <!-- testimonial start -->
+        <section>
+            <div class="container  mt-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-title mb-5" data-aos="fade-right" data-aos-duration="300">Let's see</h3>
+                        <div class="row g-0 testimonial-bg text-center align-items-center ">
+                            <div class="col-12 col-lg-5  d-none d-lg-block" data-aos="fade-right" data-aos-duration="300">
+                                <img src="assets/image/testimonial/testimonial.png" alt="testimonial" class="img-fluid">
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-7" data-aos="fade-left" data-aos-duration="300">
+                                <div class="testimonial-wrapper rounded position-relative">
+                                    <div class="testimonial-top mb-20">
+                                        <img src="assets/image/testimonial/author-6.png" alt="testimonial"
+                                            class="img-fluid">
+                                        <h4>Jamil Shikdar</h4>
+                                        <span class="subtitle">Sr. Software Engineer</span>
+                                    </div>
+                                    <div class="testimonial-body ">
+
+                                        <div class="testimonial-slider">
+                                            <div>
+                                                <p>
+                                                    <q>
+                                                        We were looking for an affordable marketing company and Silver
+                                                        Tongue
+                                                        Media more than delivered. They manage our blog
+                                                        and social media accounts and produce our brochures. </q>
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <p>
+                                                    <q>
+                                                        We were looking for an affordable marketing company and Silver
+                                                        Tongue
+                                                        Media more than delivered. They manage our blog
+                                                        and social media accounts and produce our brochures. </q>
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <p>
+                                                    <q>
+                                                        We were looking for an affordable marketing company and Silver
+                                                        Tongue
+                                                        Media more than delivered. They manage our blog
+                                                        and social media accounts and produce our brochures. </q>
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <p>
+                                                    <q>
+                                                        We were looking for an affordable marketing company and Silver
+                                                        Tongue
+                                                        Media more than delivered. They manage our blog
+                                                        and social media accounts and produce our brochures. </q>
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="testimonail-control control d-flex justify-content-between">
+                                        <button type="button"><i class="fa-solid fa-chevron-left"></i></button>
+                                        <button type="button"><i class="fa-solid fa-chevron-right"></i></button>
+                                    </div>
+                                    <div class="testimonial-nav slider-nav mt-3">
+                                        <button type="button"><span></span></button>
+                                        <button type="button"><span></span></button>
+                                        <button type="button"><span></span></button>
+                                        <button type="button"><span></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial end -->
+        <!-- team start -->
+        <section class="team">
+            <div class="container mt-50 ">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="d-flex justify-content-between mb-30">
+                            <div class="section-title">
+                                <h3 data-aos="fade-right" data-aos-duration="300">Meet with our experts</h3>
+                            </div>
+                            <div>
+                                <div class="team-slider-control slider-control" data-aos="fade-left" data-aos-duration="400">
+                                    <button type="button"><span class="fa-solid fa-chevron-left"></span></button>
+                                    <button type="button"><span class="fa-solid fa-chevron-right"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- team slider -->
+            <div class="container">
+                <div class="team-slider text-center ">
+                    <div class="team-item" data-aos="flip-left" data-aos-duration="300">
+                        <div>
+                            <img src="assets/image/team/team-1.png" alt="team" class="img-fluid">
+                        </div>
+                        <div class="team-text">
+                            <h4>Christin Le</h4>
+                            <p>Front-end developer</p>
+                        </div>
+                    </div>
+                    <div class="team-item" data-aos="flip-left" data-aos-duration="320">
+                        <div>
+                            <img src="assets/image/team/team-2.png" alt="team" class="img-fluid">
+                        </div>
+                        <div class="team-text">
+                            <h4>Mike hardson</h4>
+                            <p>UI-UX designer</p>
+                        </div>
+                    </div>
+                    <div class="team-item" data-aos="flip-left" data-aos-duration="330">
+                        <div>
+                            <img src="assets/image/team/team-3.png" alt="team" class="img-fluid">
+                        </div>
+                        <div class="team-text">
+                            <h4>David albert</h4>
+                            <p>Graphic designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- team end -->
+        <!-- blog start -->
+        <section class="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="d-flex justify-content-between mb-30">
+                            <div class="section-title ">
+                                <h3 data-aos="fade-right" data-aos-duration="300">Popular on our blog</h3>
+                            </div>
+                            <div>
+                                <div class="blog-slider-control slider-control" data-aos="fade-left" data-aos-duration="300">
+                                    <button type="button"><span class="fa-solid fa-chevron-left"></span></button>
+                                    <button type="button"><span class="fa-solid fa-chevron-right"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- blog slider -->
+            <div class="container ">
+                <div class="blog-slider">
+                    <a href="#">
+                        <div class="blog-item" data-aos="flip-left" data-aos-duration="300">
+                            <div>
+                                <img src="assets/image/blog/blog-1.png" alt="blog" class="img-fluid">
+                            </div>
+                            <div class="blog-text">
+                                <p>Why you need a business website?</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="blog-item" data-aos="flip-left" data-aos-duration="300">
+                            <div>
+                                <img src="assets/image/blog/blog-2.png" alt="blog" class="img-fluid">
+                            </div>
+                            <div class="blog-text">
+                                <p>Why you need to boost your facebok page?</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="blog-item" data-aos="flip-left" data-aos-duration="300">
+                            <div>
+                                <img src="assets/image/blog/blog -3.png" alt="team" class="img-fluid">
+                            </div>
+                            <div class="blog-text">
+                                <p>Do you want to know how we decorate?</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="blog-item" data-aos="flip-left" data-aos-duration="300">
+                            <div>
+                                <img src="assets/image/blog/blog-4.png" alt="team" class="img-fluid">
+                            </div>
+                            <div class="blog-text">
+                                <p>Why you need to do seo for your website?</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="blog-item" data-aos="flip-left" data-aos-duration="300">
+                            <div>
+                                <img src="assets/image/blog/blog-4.png" alt="team" class="img-fluid">
+                            </div>
+                            <div class="blog-text">
+                                <p>Why you need to do seo for your website?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- blog nav slider -->
+                <div class="row mt-30 mb-30">
+                    <div class="col-md-12 text-center">
+                        <div class="slider-nav blog-slider-nav " data-aos="fade-up" data-aos-duration="300">
+                            <button type="button"><span></span></button>
+                            <button type="button"><span></span></button>
+                            <button type="button"><span></span></button>
+                            <button type="button"><span></span></button>
+                            <button type="button"><span></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blog end -->
+        <!-- cta section  start -->
+        <section id="cta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div style="background:url('./assets/image/cta/cta-bg.png') ;" class="cta">
+                            <div class="row cta-wrap align-items-center">
+                                <div class="col-md-6">
+                                    <h1>LET'S GET YOUR PROJECT
+                                    STARTED!</h1>
+                                </div>
+                                <div class="col-md-6 text-lg-end">
+                                    <div>
+                                        <a href="#" class="theme-btn theme-btn-primary">contact with us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cta section end -->
+    </main>
+    <!-- footer start -->
+    <footer class="pb-20">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <!-- footer menu -->
+                    <div>
+                        <div class="footer-title" data-aos='fade-up' data-aos-duration='300'>
+                            <h2>Explore</h2>
+                        </div>
+                        <nav class="footer-nav" data-aos='fade-right' data-aos-duration='300'>
+                            <ul>
+                                <li><a href="#">Our portofolioo</a></li>
+                                <li><a href="#">Latest News</a></li>
+                                <li><a href="#">Help</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div>
+                        <div class="footer-title" data-aos='fade-up' data-aos-duration='300'>
+                            <h2>Information</h2>
+                        </div>
+                        <nav class="footer-nav" data-aos='fade-right' data-aos-duration='300'>
+                            <ul>
+                                <li><a href="#">Term of use</a></li>
+                                <li><a href="#">privecy policy</a></li>
+                                <li><a href="#">support</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div>
+                        <div class="footer-title" data-aos='fade-up' data-aos-duration='300'>
+                            <h2>company</h2>
+                        </div>
+                        <nav class="footer-nav" data-aos='fade-right' data-aos-duration='300'>
+                            <ul>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">meet our team</a></li>
+                                <li><a href="#">contact us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div>
+                        <div class="footer-title" data-aos='fade-up' data-aos-duration='300'>
+                            <h2>Contact</h2>
+                        </div>
+                        <div class="text-widget" data-aos='fade-right' data-aos-duration='300'>
+                            <ul>
+                                <li>
+                                    <span class="widget-icon"><i class="fa-solid fa-location-dot"></i></span>
+
+                                    <span>66 Broklyn Street, New York
+                                        United States of America</span>
+                                </li>
+                                <li>
+                                    <span class="widget-icon"><i class="fa-solid fa-phone"></i></span>
+                                    <span>666 888 000</span>
+                                </li>
+                                <li>
+                                    <span class="widget-icon"><i class="fa-solid fa-envelope"></i></span>
+                                    <span>help@extalaser.com</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div>
+                        <div class="footer-title" data-aos='fade-up' data-aos-duration='300'>
+                            <h2>Subscribe</h2>
+                        </div>
+
+                        <div class="subscribe-widget" data-aos='fade-left' data-aos-duration='300'>
+                            <form action="#">
+                                <div class="group-input">
+                                    <input type="email" placeholder="email address">
+                                    <button type="button" class="input-group-btn input-btn"><i
+                                            class="fa-solid fa-arrow-right"></i></button>
+                                </div>
+                            </form>
+                            <div class="mt-20 widget-desc" data-aos='fade-up' data-aos-duration='300'>
+                                <p>Sign up for our latest news & articles. We won’t give you spam mails.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer bottom -->
+        <div class="container mt-5">
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <div class="footer-bottom">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-4 col-lg-3 mb-3 mb-sm-0 text-center text-sm-start" >
+                                <a href="index.html" ><img src="assets/image/Hero/logo.png" alt="logo"></a>
+                            </div>
+                            <div class="col-12 col-sm-8 col-lg-6">
+                                <p class="copyright-text text-center text-sm-end text-lg-center mt-sm-2 ">&copy; 2019
+                                    Lift Media. All Rights Reserved</p>
+                            </div>
+                            <div class="social-icon col-12 col-lg-3">
+                                <ul class="list-unstyled d-flex justify-content-center">
+                                    <li><a href="#"><span class="fa-brands fa-facebook-f"></span></a></li>
+                                    <li><a href="#"><span class="fa-brands fa-linkedin-in"></span></a></li>
+                                    <li><a href="#"><span class="fa-brands fa-twitter"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- footer end -->
+    <!-- Script -->
+    <script src="assets/js/aos.min.js"></script>
+    <script src="assets/js/tinyslider.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/filter.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

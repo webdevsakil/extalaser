@@ -1,0 +1,46 @@
+/* web service */
+.web-service .service-list li a {
+    padding: 25px;
+}
+.web-service.services-wrapper{
+    border: none;
+}
+/* service info */
+.service-info-left {
+    background: linear-gradient(152.62deg, #F4F3FF 0.46%, #FAFBFF 99.99%);
+    border: 1px solid #EBE9FE;
+    box-shadow: 0px 4px 4px rgba(248, 248, 255, 0.25);
+    border-radius: 10px;
+    padding: 30px;
+
+    h2 {
+        font-size: 24px;
+        font-weight: 500;
+        color: $gray;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 400;
+        color: $gray;
+    }
+}
+
+.lists {
+    li {
+        span:nth-child(1) {
+            color: $purple;
+            margin-right: 10px;
+        }
+
+        margin-bottom: 5px;
+    }
+}
+
+.service-info-details {
+    p {
+        font-size: 18px;
+        color: $gray-70;
+    }
+}

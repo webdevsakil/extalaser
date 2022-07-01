@@ -1,0 +1,9 @@
+.filter-item li.active {
+    transition: all 0.5s ease;
+    display: block;
+}
+
+.filter-item li.delete {
+    transition: all 0.5s ease;
+    display: none;
+}

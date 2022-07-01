@@ -1,0 +1,60 @@
+/* Form */
+input[type=text],
+input[type=email],
+input[type=number] {
+    border: none;
+    background: $white;
+    height: 50px;
+    padding: 0px 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: $black;
+    width: 100%;
+
+    &:focus {
+        outline: none;
+    }
+
+    &::placeholder {
+        text-transform: capitalize;
+    }
+}
+
+textarea {
+    padding: 10px;
+    width: 100%;
+
+    &::placeholder {
+        text-transform: capitalize;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.border-input {
+    border: 1px solid $border  !important;
+    border-radius: 5px;
+}
+.group-input {
+    position: relative;
+}
+
+.input-group-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.input-btn {
+    background: $azure;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 50px;
+    color: $white;
+    font-size: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

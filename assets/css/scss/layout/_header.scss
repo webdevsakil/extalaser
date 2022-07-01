@@ -1,0 +1,204 @@
+
+header {
+    ul {
+        list-style-type: none;
+        padding: 0px;
+
+        a {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 400;
+            color: $gray;
+            text-transform: capitalize;
+
+            &:hover {
+                transition: color ease-in 0.3s;
+                color: $purple;
+            }
+        }
+    }
+
+    .logo {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color: $purple;
+    }
+
+    .logo-img {
+        width: 180px;
+        height: auto;
+        vertical-align: middle;
+    }
+}
+
+.navigation {
+    .main-menu {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+
+        li {
+            a {
+                display: block;
+                margin-right: 30px;
+                padding: 13px 5px;
+            }
+        }
+
+        .has-children {
+            position: relative;
+
+            .arrow {
+                position: absolute;
+                top: 20px;
+                right: 10px;
+                color: $gray-70;
+            }
+
+            .submenu {
+                position: absolute;
+                top: 100%;
+                left: -20px;
+                margin-top: 15px;
+                min-width: 220px;
+                transform: scale(0);
+                transform-origin: top;
+                border-radius: 5px;
+                border-top: 5px solid $purple;
+                box-shadow: 2px 3px 2px 3px $secondary-purple;
+                transition: all ease-in 0.5s;
+
+                li {
+                    a {
+                        margin-right: 0px;
+                        padding: 12px 5px;
+                        padding-left: 10px;
+                        box-shadow: 1px 1px 1px 1px $secondary-purple;
+                    }
+
+                    &:hover {
+                        a {
+                            color: $white;
+                            background: $black-2;
+                        }
+                    }
+                }
+
+                .has-nested-submenu {
+                    position: relative;
+
+                    .nested-submenu {
+                        transform: scale(0);
+                        position: absolute;
+                        top: 0;
+                        left: 100%;
+                        min-width: 220px;
+                        border-top: 5px solid $purple;
+                        border-top-left-radius: 5px;
+                        border-top-right-radius: 5px;
+
+                        li {
+                            &:hover {
+                                opacity: 0.6;
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        .nested-submenu {
+                            transform: scale(1);
+                        }
+                    }
+                }
+            }
+
+            &:hover,
+            &:active {
+                transition: all ease-in 0.5s;
+
+                .submenu {
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+}
+
+.transparent-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Mobile Menu */
+.mobileMenuBtn {
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.slider-navigation {
+    z-index: 9888;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    background: $black-2;
+    min-height: 100vh;
+    transform: translate(-320px);
+    transition: 0.4s;
+
+    .closeIcon {
+        color: $white;
+        font-size: 24px;
+    }
+
+    .navigation {
+        ul {
+            li {
+                border-bottom: 1px solid $border;
+
+                a {
+                    padding-left: 20px;
+                }
+            }
+
+
+        }
+
+        .has-children{
+
+            .mobile-submenu {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: $white;
+                color: $black-2;
+                opacity: 0;
+                visibility: hidden;
+                transition:all ease-in 0.4s;
+            }
+            &:hover{
+                .mobile-submenu{
+                    opacity: 1;
+                    visibility: visible;
+                    li{
+                        &:hover{
+                            background: $black-2;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.show {
+    transform: translate(0px);
+    opacity: 1;
+}

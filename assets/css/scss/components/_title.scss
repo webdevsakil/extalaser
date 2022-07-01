@@ -1,0 +1,57 @@
+/* section title */
+.section-title {
+    font-size: 36px;
+    font-weight: 500;
+    color: $dark;
+    text-transform: capitalize;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: $accents;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+.subtitle-two {
+    letter-spacing: 1px;
+}
+
+.subtitle-three {
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.small-title {
+    font-size: 36px;
+    font-weight: 500;
+    color: $dark;
+}
+.section-title {
+    h3 {
+        font-size: 36px;
+        font-weight: 500;
+        color: $gray;
+        line-height: 1;
+    }
+}
+
+/* section top */
+.section-top {
+    position: relative;
+    padding-left: 50px;
+    font-size: 14px;
+    color: $accents;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.section-top::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0px;
+    width: 40px;
+    height: 2px;
+    background: $accents;
+}

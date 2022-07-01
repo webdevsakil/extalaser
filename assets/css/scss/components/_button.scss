@@ -1,0 +1,64 @@
+/*  Button */
+@mixin button {
+    padding: 12px 35px;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.theme-btn {
+    @include button;
+}
+
+.theme-btn-primary {
+    background: $purple;
+    color: $white;
+    transition: all ease 0.4s;
+    &:hover{
+        transition: color ease-out 0.5s;
+        background: $black;
+        color: $white;
+        box-shadow: 2px 2px 2px 4px $light-bg;
+    }
+}
+
+
+
+.theme-btn-border {
+    border: 1px solid $purple;
+    color: $gray;
+    transition: all ease-in-out 0.4s;
+}
+
+.theme-btn-border:hover {
+    background: $purple;
+    color: $white;
+}
+
+.btn-transparent {
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.icon-btn {
+    background: $purple;
+    border: 0;
+    height: 30px;
+    width: 30px;
+    display: block;
+    font-size: 14px;
+    color: $white;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    &:hover{
+        background: $black-2;
+    }
+}
+

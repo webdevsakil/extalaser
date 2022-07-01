@@ -1,0 +1,28 @@
+@media only screen and (min-width: 992px) {
+    .section-top::before {
+        left: 0%;
+    }
+
+    .portfolio-wrapper {
+        margin-top: -20px;
+    }
+
+    .portfoilo {
+        .section-title {
+            margin-top: 30px;
+        }
+    }
+
+    .portfolio-nav {
+
+        ul {
+            li {
+                a {
+                    margin: 10px;
+                }
+            }
+
+
+        }
+    }
+}

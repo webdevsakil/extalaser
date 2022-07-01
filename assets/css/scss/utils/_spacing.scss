@@ -1,0 +1,46 @@
+@for $i from 1 to 21 {
+    .mt-#{$i * 5} {
+        margin-top: $i*5px;
+    }
+
+    .me-#{$i * 5} {
+        margin-right: $i*5px;
+    }
+
+    .mb-#{$i * 5} {
+        margin-bottom: $i*5px;
+    }
+
+    .ms-#{$i * 5} {
+        margin-left: $i*5px;
+    }
+
+    .pt-#{$i * 5} {
+        padding-top: $i*5px;
+    }
+
+    .pe-#{$i * 5} {
+        padding-right: $i*5px;
+    }
+
+    .pb-#{$i * 5} {
+        padding-bottom: $i*5px;
+    }
+
+    .ps-#{$i * 5} {
+        padding-left: $i*5px;
+    }
+
+}
+
+.-mb-50 {
+    margin-bottom: -50px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    @for $i from 1 to 10 {
+        .mt-sm-#{$i * 5} {
+            margin-top: $i*5px;
+        }
+    }
+}

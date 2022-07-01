@@ -1,0 +1,69 @@
+/*  
+     Theme Style 
+    01 . Header
+        1.1 - Navigation
+    02. Slider    
+    03. Services
+        3.1 Service two
+    04. Portfolio    
+    05. Testimonial
+    06. Team
+    07. Blog
+    08. cta
+    09. footer
+        9.1 Text Widget
+        9.2 social icon
+    
+        Service Page
+    10. Service Header
+    11. Service Card
+    12. service we provide
+    13. Features
+    14. web service
+    15. service info
+    16. accordion
+    17. pagination
+    18. counter
+    19. blog
+    20. contact
+    21. widgets
+*/
+
+/* base */
+@import "./base/variable";
+@import "./base/typography";
+
+/* utils */
+@import "./utils/spacing";
+@import "./utils/fonts";
+@import "./utils/colors";
+
+/* components */
+
+@import "./components/button";
+@import "./components/border";
+@import "./components/form";
+@import "./components/img";
+@import "./components/title";
+@import "./components/widgets";
+@import "./components/breadcrumb";
+@import "./components/accordion";
+@import "./components/pagination";
+
+/* layout */
+@import "./layout/header";
+@import "./layout/slider";
+@import "./layout/footer";
+
+/* pages */
+@import "./pages/home";
+@import "./pages/service";
+@import "./pages/web";
+@import "./pages/about";
+@import "./pages/blog";
+
+/* responsive */
+@import "./responsive/xs";
+@import "./responsive/mobile";
+@import "./responsive/medium";
+@import "./responsive/large";

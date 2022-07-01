@@ -1,0 +1,131 @@
+/* blog */
+.post-meta {
+    a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        color: $black-2;
+        display: block;
+        margin-right: 20px;
+        text-transform: capitalize;
+
+        &:hover {
+            color: $accents;
+        }
+
+        span {
+            color: $accents;
+            padding-right: 5px;
+
+            &:hover {
+                color: $black-2;
+            }
+        }
+    }
+}
+
+.post-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: $gray;
+}
+
+.post-excerpt,
+.post-content {
+    p {
+        font-size: 18px;
+        color: $gray-70;
+    }
+}
+
+.blog-cat-wrapper {
+    .section-title {
+        font-size: 30px;
+    }
+
+    .service-list {
+        li {
+            a {
+                padding: 25px;
+            }
+        }
+    }
+}
+.single-post {
+    padding: 0px;
+
+    .cat-btn {
+        position: absolute;
+        top: 25px;
+        left: 20px;
+        z-index: 89888;
+
+        a {
+            text-decoration: none;
+            background: rgba(255, 255, 255, 0.4);
+            padding: 10px 25px;
+            border-radius: 5px;
+            color: $black;
+            text-transform: capitalize;
+            font-size: 14px;
+
+            i {
+                padding-right: 5px;
+            }
+        }
+
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .post-title {
+        font-size: 18px;
+    }
+
+    .post-excerpt {
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+/* contact card */
+.contact-card-wrapper {
+    .single-card {
+        min-height: 200px;
+        border: 1px solid $purple-5;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+        .card-top {
+            span {
+                color: $purple;
+            }
+
+            h5 {
+                font-size: 18px;
+                text-transform: capitalize;
+                font-weight: 400;
+            }
+        }
+
+        .card-details {
+            p {
+                font-size: 18px;
+                line-height: 28px;
+                color: $gray-70;
+                font-weight: 400;
+            }
+
+            ul {
+                li {
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: $gray-70;
+                }
+            }
+        }
+    }
+}

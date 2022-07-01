@@ -1,0 +1,13 @@
+/* breadcrumb */
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+}
+
+.breadcrumb-item {
+    a {
+        font-size: 14px;
+        text-decoration: none;
+        color: $black-2;
+        text-transform: capitalize;
+    }
+}

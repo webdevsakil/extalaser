@@ -1,0 +1,32 @@
+/* About Us */
+.about-us {
+    .section-title {
+        font-size: 26px;
+    }
+
+    p {
+        color: $gray-70;
+    }
+}
+
+/* counter */
+.counter-item {
+    border: 1px solid $secondary-purple;
+    border-radius: 5px;
+
+    span {
+        font-weight: 500;
+        font-size: 36px;
+        color: $gray;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    h4 {
+        font-size: 18px;
+        color: $gray-70;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 1;
+    }
+}

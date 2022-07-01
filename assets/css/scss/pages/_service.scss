@@ -1,0 +1,173 @@
+/*  Service Header  */
+.service-header {
+    height: 416px;
+
+    h2 {
+        font-weight: 400;
+    }
+}
+
+.service-header-content {
+    margin-top: -40px;
+}
+
+/* service card */
+.blog-card {
+    background: $ghost-white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 5px;
+
+    .blog-card-header {
+        img {
+            max-width: 152px;
+        }
+    }
+
+    .blog-card-img {
+        img {
+            width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .blog-card-title {
+        margin: 20px 0px;
+
+        h4 {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 32px;
+        }
+
+        a {
+            text-decoration: none;
+            color: $dark;
+        }
+    }
+
+    .blog-card-desc {
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            color: $gray-70;
+            line-height: 25px;
+        }
+    }
+}
+/* service we provide */
+.card-icon-item {
+    transform: skew(1deg);
+}
+
+.card-icon-box {
+    padding: 50px 15px;
+
+    .icon-area {
+        img {
+            height: 70px;
+            width: 70px;
+        }
+
+        margin-bottom: 30px;
+    }
+
+    .icon-details {
+        h3 {
+            font-size: 24px;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+
+        p {
+            font-size: 18px;
+            color: $gray-70;
+        }
+    }
+}
+// processiong card
+.single-card {
+    padding: 30px 20px;
+    border-top-left-radius: 25px;
+
+    .card-top {
+        .count {
+            display: block;
+            height: 34px;
+            width: 34px;
+            background: $secondary-purple;
+            color: $black;
+            font-weight: bold;
+            text-align: center;
+            line-height: 34px;
+            border-top-left-radius: 10px;
+        }
+
+        h5 {
+            font-size: 18px;
+            color: $black;
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+    }
+
+    .card-details {
+        .card-icon {
+            padding-right: 20px;
+        }
+
+        .card-info {
+            p {
+                font-size: 14px;
+                color: $gray-70;
+                font-weight: 400;
+                line-height: 23px;
+            }
+        }
+    }
+}
+/* Features */
+.tab-list {
+    li {
+        flex-basis: 100%;
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 24px;
+            display: block;
+            color: $black;
+            border: 1px solid $secondary-purple;
+            margin: 0px 2px;
+            padding: 30px 0px;
+            text-align: center;
+            border-radius: 0px 10px 10px 0px;
+            background: $gray-1;
+
+            &.active {
+                background: $light-pink;
+            }
+        }
+    }
+}
+
+.tab-content-details {
+    p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+.tab-desc-list {
+    list-style-image: url('./../../image/icon/check.png');
+
+    li {
+        font-size: 14px;
+        color: $gray-70;
+        vertical-align: middle;
+        margin-bottom: 10px;
+    }
+}
